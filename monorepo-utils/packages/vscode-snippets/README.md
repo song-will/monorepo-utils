@@ -5,7 +5,7 @@
 ## 使用
 
 ```
-npm i -g @exile_song/vscode-snippets
+npm i -g @exile_song/vscode-snippets 
 vssp create ne1dcw --prefix=v11ue --scope=vue --file=../base/index.js --description='西出阳关无 故人'
 
 // TODO: DEMONSTRATE API

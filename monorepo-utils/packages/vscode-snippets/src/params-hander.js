@@ -1,6 +1,7 @@
 const { existsSync } = require('fs')
 const { resolve } = require('path')
-const handleParams = (snippetName, ...args) => {
+
+module.exports = (snippetName, ...args) => {
   const map = {}
   const regName = /^--.*/g
   if (!snippetName || regName.test(snippetName)) {
@@ -13,7 +14,7 @@ const handleParams = (snippetName, ...args) => {
     const reg = /^\//g
     // 如果路径是相对路径，则转换为绝对路径
     if (key && val && key === '--file' && !reg.test(val)) {
-      map[key.substring(2)] = resolve(__dirname, val)
+      map[key.substring(2)] = resolve(process.cwd(), val)
     }
   })
   if (!map.file) {
@@ -25,4 +26,3 @@ const handleParams = (snippetName, ...args) => {
   return map
 }
 
-module.exports = handleParams
