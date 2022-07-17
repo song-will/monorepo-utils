@@ -10,11 +10,14 @@
   "license": "MIT",
   "main": "src/main.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "src": "src",
+    "base": "base",
+    "bin": "bin"
   },
   "files": [
-    "lib"
+    "bin",
+    "base",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
@@ -26,5 +29,5 @@
     "commander": "^9.4.0",
     "inquirer": "^9.0.1"
   },
-  "gitHead": "ef80f41b45620ac4ae3b56a1cb949dc78da0aa92"
+  "gitHead": "2c3b1cec7f5605313596af17cdb2080a693cbb5c"
 }
