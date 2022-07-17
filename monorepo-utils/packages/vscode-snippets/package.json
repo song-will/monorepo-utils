@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "description": "vscode-snippets",
   "author": "song-will <735560190@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/song-will/monorepo-utils/blob/master/monorepo-utils/packages/vscode-snippets/README.md",
   "license": "MIT",
   "main": "src/main.js",
   "directories": {
