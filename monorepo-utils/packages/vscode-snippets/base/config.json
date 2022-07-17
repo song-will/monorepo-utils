@@ -1,0 +1,8 @@
+{
+  "scope": "javascript,typescript",
+  "prefix": "log",
+  "body": [
+    "console.log('hello world'),"
+  ],
+  "description": "this is a description"
+}

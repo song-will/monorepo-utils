@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.1.6",
+    "nx": "^14.4.3"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "nx:graph": "npx nx graph"
+  },
+  "keywords": [],
+  "author": "qingsong",
+  "license": "MIT",
+  "description": ""
+}

@@ -1,0 +1,8 @@
+{
+  "Print to console": {
+    "scope": "$scope",
+    "prefix": "$prefix",
+    "body": [],
+    "description": "$description"
+  }
+}
