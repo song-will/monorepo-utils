@@ -3,7 +3,7 @@
   "bin": {
     "vssp": "./bin/www"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vscode-snippets",
   "author": "song-will <735560190@qq.com>",
   "homepage": "https://github.com/song-will/monorepo-utils/blob/master/monorepo-utils/packages/vscode-snippets/README.md",
