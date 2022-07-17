@@ -16,6 +16,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -23,5 +26,5 @@
     "commander": "^9.4.0",
     "inquirer": "^9.0.1"
   },
-  "gitHead": "9550ea602fedda8091ea6a049da5b706b416a7f6"
+  "gitHead": "ef80f41b45620ac4ae3b56a1cb949dc78da0aa92"
 }
