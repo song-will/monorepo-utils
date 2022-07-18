@@ -1,6 +1,7 @@
 # `vscode-snippets`
 
-> TODO: description
+## 描述
+通过命令行生成vscode的snippets
 
 ## 使用
 
@@ -14,5 +15,5 @@ vssp create ne1dcw --prefix=v11ue --scope=vue --file=../base/index.js --descript
 |  ----  | ----  | ---- | ---- | 
 | prefix  | 触发词 | log  | 否   
 | socpe  | 限制文件格式 | javascript, typescript | 否 
-| file.  | 模板地址 | -- | 是 
+| file  | 模板地址 | -- | 是 
 | description| 描述 | this is a description | 否
